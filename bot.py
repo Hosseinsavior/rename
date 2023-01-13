@@ -12,9 +12,6 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
-else:
-    from config import Config
-
 
 # noinspection PyAttributeOutsideInit
 class Bot(Client):
