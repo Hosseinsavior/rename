@@ -40,5 +40,5 @@ class Bot(Client):
         print('-------------------------')
 
 
-app = Bot()
-app.run()
+
+Bot.run()
